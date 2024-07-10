@@ -15,6 +15,7 @@ We can use the readily available perceptron model implementation of the Scikit l
 
 ## Support Vector Machine (SVM)  
 The main objective of the SVM algorithm is to find the optimal hyperplane in an N-dimensional space that can separate the data points in different classes in the feature space. The hyperplane tries that the margin between the closest points of different classes should be as maximum as possible.
+
 ![image](https://github.com/gap10/Federated-Learning/assets/61880360/14458c19-7649-4298-a77b-f38ceb0ea10f)
 
 For the SVM model, we can use the already available SVM model in the Scikit learn library. We have used this readily available model directly because it is simpler and the intercept value can also be extracted.
