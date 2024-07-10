@@ -10,16 +10,19 @@ This introduction lays the groundwork for exploring the synergies between federa
 ## Perceptron 
 A single-layer perceptron is the basic unit of a neural network. A perceptron consists of input values, weights and a bias, and a weighted sum.
 ![image](https://github.com/gap10/Federated-Learning/assets/61880360/c0ff914c-7c1a-4d6b-b2c7-ca5d25c44adb)
+
 We can use the readily available perceptron model implementation of the Scikit learn library. We however, have implemented the model from scratch because accessing weights and bias is easier this way.
 
 ## Support Vector Machine (SVM)  
 The main objective of the SVM algorithm is to find the optimal hyperplane in an N-dimensional space that can separate the data points in different classes in the feature space. The hyperplane tries that the margin between the closest points of different classes should be as maximum as possible.
 ![image](https://github.com/gap10/Federated-Learning/assets/61880360/14458c19-7649-4298-a77b-f38ceb0ea10f)
+
 For the SVM model, we can use the already available SVM model in the Scikit learn library. We have used this readily available model directly because it is simpler and the intercept value can also be extracted.
 
 ## Multi-Layer Perceptron - 
 Multilayer Perceptron falls under the category of feedforward algorithms, because inputs are combined with the initial weights in a weighted sum and subjected to the activation function, just like in the Perceptron. But the difference is that each linear combination is propagated to the next layer.
 ![image](https://github.com/gap10/Federated-Learning/assets/61880360/5dfe4865-e037-4d00-91c6-a1c3084ddb6b)
+
 In our implementation we have built the multilayer perceptron model from scratch. We used one hidden layer, to keep the model simple. We have used the sigmoid activation function. 
 
 # Comparison of models:
